@@ -5,8 +5,8 @@ The purpose of this software is to capture the output of the speaker and cancel 
 
 ## TODO 
 
-1. loop through all the soundfiles and record all the recording
-2. figure out a method that would be able to compare the recorded file and the original file and allow us to filter it out (mathematically) PSNR?
+1. Modify recording.py to loop through all the demos from soundfiles/ and record all of the input to the microphone.
+2. figure out a method that would be able to compare the recorded file and the original file and allow us to filter it out (mathematically) maybe try PSNR?
 3. filter the output of the speaker out or suppress it. 
 
 
