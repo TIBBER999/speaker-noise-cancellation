@@ -3,7 +3,7 @@
 ## Objective
 The purpose of this software is to capture the output of the speaker and cancel the echo of that output when the microphone records it. When the software is running, people on the call would not need to worry about the echoes from the speaker's output. 
 
-![alt text](readme_images/hierarchy.png)
+![alt text](readme_images/Hierarchy.png)
 
 ## TODO 
 
