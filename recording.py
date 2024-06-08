@@ -24,7 +24,7 @@ data_to_play = data[:num_samples]
 def record_audio(duration, fs, channels=2, dtype='int16'):
     recording = sd.rec(int(duration * fs), samplerate=fs, channels=channels, dtype=dtype)
     sd.wait()  # Wait until recording is finished
-    file_folder = 'recording'
+    file_folder = 'recording_pre_filter'
     filename = 'We Choose to go to the Moon.wav'
     full_path = os.path.join(file_folder, filename)
     sf.write(full_path, recording, fs)  # Save recording to a file
