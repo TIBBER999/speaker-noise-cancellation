@@ -1,13 +1,23 @@
 # speaker-noise-cancellation
 
-The purpose of this repository is to create a software that is able to capture the output of the speaker and be able to cancel that echo of that output when it is recorded by the microphone. When this software is running, it is able to make people are in call not worry about echos even without wearing any headphones.
+## Objective
+The purpose of this software is to capture the output of the speaker and cancel the echo of that output when the microphone records it. When the software is running, people on the call would not need to worry about the echoes from the speaker's output. 
 
-# recording.py 
-
-This file will allow you to play any designated sound file and record your microphone input at the same time. The recorded file will be placed in the recording folder. 
-
-# TODO 
+## TODO 
 
 1. loop through all the soundfiles and record all the recording
 2. figure out a method that would be able to compare the recorded file and the original file and allow us to filter it out (mathematically) PSNR?
 3. filter the output of the speaker out or suppress it. 
+
+
+## Repository hierarchy 
+
+### recording_pre_filter 
+This is the directory where we store the recording of the sound data which we record from the microphone. These sound files will be used to determine the relationship between the stock sound file and the recording of the microphone on data such as latency, frequency, and amplitude of the recording in comparison to the original data. 
+
+### soundfiles 
+This is the directory where we put all the stock sound data, which we will use to be played from the speaker and recorded by the microphone.  
+
+
+### recording.py
+This file will allow you to play any designated sound file and record your microphone input at the same time. The recorded file will be placed in the recording folder. 
