@@ -5,9 +5,9 @@ The purpose of this software is to capture the output of the speaker and cancel 
 
 ![alt text](readme_images/Hierarchy.png)
 
-## Setup
+## Setup (not neccesary unless you want to remake the data)
 
-Run RecordPlay.py after cloning the repository. The file will convert the mp3 files from soundfiles to wav files in soundfiles_wav and play the wav files then record those sound files through your computer microphone.
+Run RecordPlay.py after cloning the repository. The file will convert the mp3 files from soundfiles to wav files in soundfiles_wav and play the wav files then record those sound files through your computer microphone. 
 
 ## TODO 
 
