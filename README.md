@@ -5,11 +5,12 @@ The purpose of this software is to capture the output of the speaker and cancel 
 
 ![alt text](readme_images/Hierarchy.png)
 
+## Setup
+
+Run RecordPlay.py after cloning the repository. The file will convert the mp3 files from soundfiles to wav files in soundfiles_wav and play the wav files then record those sound files through your computer microphone.
+
 ## TODO 
 
-* Make a makefile that will setup the soundfiles by running mp3_converter.py which converts the soundfile from mp3 format to wav formats locally.
-* Make sure git doesn't upload the folder that is created by mp3_converter.py
-* Modify recording.py to loop through all the demos from soundfiles/ and record all of the input to the microphone.
 * figure out a method that would be able to compare the recorded file and the original file and allow us to filter it out (mathematically) maybe try PSNR?
 * filter the output of the speaker out or suppress it. 
 
