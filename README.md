@@ -23,6 +23,11 @@ This is the directory where we store the recording of the sound data which we re
 ### soundfiles 
 This is the directory where we put all the stock sound data, which we will use to be played from the speaker and recorded by the microphone.  
 
+### RecordPlay.py
+Use this file to generate the recordings by playing the original data. 
 
-### recording.py
+### noise_cancel.py 
+This is the file that can generate the filtered output however, currently, it isn't very effective. 
+
+### recording.py (not used anymore)
 This file will allow you to play any designated sound file and record your microphone input at the same time. The recorded file will be placed in the recording folder. 
