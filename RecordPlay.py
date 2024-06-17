@@ -88,7 +88,7 @@ def output2input(wavdirectory):
 
 
 if __name__ == "__main__":
-    help = "Can convert, or Playback, or Both"
+    help = "Can convert, or Playback, or Both\n 0: Both Conversion and Playback\n 1: Only Conversion \n 2: Only Playback"
     parser = argparse.ArgumentParser(description = help)
     parser.add_argument('--option', type =int, default=0)
     parser.parse_args()
